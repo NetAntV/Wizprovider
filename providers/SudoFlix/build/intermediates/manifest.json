@@ -1,0 +1,8 @@
+{
+    "providerClassName": "com.flxProviders.sudoflix.SudoFlix",
+    "requiresResources": false,
+    "versionCode": 14102,
+    "versionName": "1.4.1",
+    "name": "SudoFlix",
+    "updateUrl": "https://raw.githubusercontent.com/flixclusiveorg/providers-template/builds/updater.json"
+}

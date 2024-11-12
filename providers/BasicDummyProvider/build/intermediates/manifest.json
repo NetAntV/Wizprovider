@@ -1,0 +1,8 @@
+{
+    "providerClassName": "com.flixclusive.provider.basic_dummy_provider.BasicDummyProvider",
+    "requiresResources": true,
+    "versionCode": 10000,
+    "versionName": "1.0.0",
+    "name": "BasicDummyProvider",
+    "updateUrl": "https://raw.githubusercontent.com/flixclusiveorg/providers-template/builds/updater.json"
+}

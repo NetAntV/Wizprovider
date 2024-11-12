@@ -1,0 +1,16 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Users\AlonGo\Documents\GitHub\Wizprovider-\providers\BasicDummyWebViewProvider\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest8941522915314566433.xml:2:13-83
+INJECTED from D:\Users\AlonGo\Documents\GitHub\Wizprovider-\providers\BasicDummyWebViewProvider\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest8941522915314566433.xml:2:13-83
+	package
+		INJECTED from D:\Users\AlonGo\Documents\GitHub\Wizprovider-\providers\BasicDummyWebViewProvider\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest8941522915314566433.xml
+	xmlns:android
+		ADDED from D:\Users\AlonGo\Documents\GitHub\Wizprovider-\providers\BasicDummyWebViewProvider\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest8941522915314566433.xml:2:23-81
+uses-sdk
+INJECTED from D:\Users\AlonGo\Documents\GitHub\Wizprovider-\providers\BasicDummyWebViewProvider\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest8941522915314566433.xml reason: use-sdk injection requested
+INJECTED from D:\Users\AlonGo\Documents\GitHub\Wizprovider-\providers\BasicDummyWebViewProvider\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest8941522915314566433.xml
+INJECTED from D:\Users\AlonGo\Documents\GitHub\Wizprovider-\providers\BasicDummyWebViewProvider\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest8941522915314566433.xml
+	android:targetSdkVersion
+		INJECTED from D:\Users\AlonGo\Documents\GitHub\Wizprovider-\providers\BasicDummyWebViewProvider\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest8941522915314566433.xml
+	android:minSdkVersion
+		INJECTED from D:\Users\AlonGo\Documents\GitHub\Wizprovider-\providers\BasicDummyWebViewProvider\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest8941522915314566433.xml
