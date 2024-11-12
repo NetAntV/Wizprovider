@@ -16,7 +16,7 @@
                 "socialLink": "http://github.com/flixclusiveorg"
             }
         ],
-        "id": "f4345a405f85352",
+        "id": "4837d4579257a02",
         "versionCode": 10000,
         "description": "A dummy provider that does nothing.",
         "buildUrl": "https://raw.githubusercontent.com/flixclusiveorg/providers-template/builds/BasicDummyProvider.flx",
@@ -47,42 +47,12 @@
                 "name": "SecondAuthor"
             }
         ],
-        "id": "0fadcc9ddebbb75",
+        "id": "36cb0dc9d49427f",
         "versionCode": 10000,
         "description": "A dummy provider (with WebView) that does nothing.",
         "buildUrl": "https://raw.githubusercontent.com/flixclusiveorg/providers-template/builds/BasicDummyWebViewProvider.flx",
         "changelog": "TODO: Add your changes here...",
         "versionName": "1.0.0",
         "name": "BasicDummyWebViewProvider"
-    },
-    {
-        "iconUrl": "https://i.imgur.com/dBgb2CR.png",
-        "repositoryUrl": "https://github.com/flixclusiveorg/providers-template",
-        "adult": false,
-        "providerType": {
-            "type": "Movies, TV Shows, etc."
-        },
-        "status": "Working",
-        "language": {
-            "languageCode": "Multiple"
-        },
-        "authors": [
-            {
-                "image": "http://github.com/flixclusiveorg.png",
-                "name": "flixclusiveorg",
-                "socialLink": "http://github.com/flixclusiveorg"
-            },
-            {
-                "name": "sussy-code",
-                "socialLink": "https://github.com/sussy-code"
-            }
-        ],
-        "id": "d7dffcc0a258fe9",
-        "versionCode": 14102,
-        "description": "A forked clone of the old movie-web.\n\nThis is a set of providers. All source code references belong to sudo-flix.",
-        "buildUrl": "https://raw.githubusercontent.com/flixclusiveorg/providers-template/builds/SudoFlix.flx",
-        "changelog": "# 1.4.1\n\n- update compose BOM to 2024.09.02",
-        "versionName": "1.4.1",
-        "name": "SudoFlix"
     }
 ]
