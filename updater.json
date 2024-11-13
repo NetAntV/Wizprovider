@@ -16,7 +16,7 @@
                 "socialLink": "http://github.com/flixclusiveorg"
             }
         ],
-        "id": "61afc85565d4103",
+        "id": "5990195e07ab524",
         "versionCode": 10000,
         "description": "A dummy provider that does nothing.",
         "buildUrl": "https://raw.githubusercontent.com/flixclusiveorg/providers-template/builds/BasicDummyProvider.flx",
@@ -47,7 +47,7 @@
                 "name": "SecondAuthor"
             }
         ],
-        "id": "b818e4a842052f8",
+        "id": "6771a173318d932",
         "versionCode": 10000,
         "description": "A dummy provider (with WebView) that does nothing.",
         "buildUrl": "https://raw.githubusercontent.com/flixclusiveorg/providers-template/builds/BasicDummyWebViewProvider.flx",
@@ -77,7 +77,7 @@
                 "socialLink": "https://github.com/sussy-code"
             }
         ],
-        "id": "d3b54f78fb9e880",
+        "id": "c43fe90eb8d1e7c",
         "versionCode": 14102,
         "description": "A forked clone of the old movie-web.\n\nThis is a set of providers. All source code references belong to sudo-flix.",
         "buildUrl": "https://raw.githubusercontent.com/flixclusiveorg/providers-template/builds/SudoFlix.flx",
