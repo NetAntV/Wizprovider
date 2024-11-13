@@ -80,7 +80,7 @@
         "id": "c43fe90eb8d1e7c",
         "versionCode": 14102,
         "description": "A forked clone of the old movie-web.\n\nThis is a set of providers. All source code references belong to sudo-flix.",
-        "buildUrl": "https://raw.githubusercontent.com/flixclusiveorg/providers-template/builds/SudoFlix.flx",
+        "buildUrl": "https://raw.githubusercontent.com/NetAntV/Wizprovider/builds/SudoFlix.flx",
         "changelog": "# 1.4.1\n\n- update compose BOM to 2024.09.02",
         "versionName": "1.4.1",
         "name": "SudoFlix"
