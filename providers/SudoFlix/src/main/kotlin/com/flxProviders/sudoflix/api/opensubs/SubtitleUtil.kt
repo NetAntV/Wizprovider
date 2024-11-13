@@ -41,9 +41,9 @@ internal object SubtitleUtil {
         onSubtitleLoaded: (Subtitle) -> Unit
     ) {
         val slug = if (season == null) {
-            "by_id&$imdbId"
+            "by_id&imdb=$imdbId"
         } else {
-            "by_id&$imdbId&season=$season&episode=$episode"
+            "by_id&imdb=$imdbId&season=$season&episode=$episode"
         }
         val url = "$WIZDOM_API_ENDPOINT/search?action=$slug"
         println("Fetching Wizdom subtitles from URL: $url")
