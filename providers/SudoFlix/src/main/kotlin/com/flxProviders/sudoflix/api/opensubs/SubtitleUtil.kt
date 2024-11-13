@@ -68,7 +68,7 @@ internal object SubtitleUtil {
         println("Parsed Wizdom subtitles: $subtitles")
 
         subtitles?.forEach { subtitle ->
-            val subLanguage = "heb"  // Hard-coded language for Wizdom API
+            val subLanguage = "eng"  // Hard-coded language for Wizdom API
             val subtitleUrl = "https://wizdom.xyz/api/files/sub/${subtitle.id}"
             println("Wizdom Subtitle ID: ${subtitle.id}, Generated URL: $subtitleUrl, Version: ${subtitle.versioname}")
 
@@ -118,7 +118,7 @@ internal object SubtitleUtil {
 
         subtitles?.subtitles?.forEach { subtitle ->
             val subLanguage = subtitle["lang"] ?: return@forEach
-            if (subLanguage == "en") {  // Filter only English subtitles
+            if (subLanguage == "eng") {  // Filter only English subtitles
                 val subtitleUrl = subtitle["url"] ?: return@forEach
                 println("OpenSubtitles English Subtitle URL: $subtitleUrl")
 
