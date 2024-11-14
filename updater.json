@@ -16,7 +16,7 @@
                 "socialLink": "https://github.com/NetAntV"
             }
         ],
-        "id": "0869cb58c744384",
+        "id": "819ccaa00b9a635",
         "versionCode": 10000,
         "description": "A dummy provider that does nothing.",
         "buildUrl": "https://raw.githubusercontent.com/NetAntV/Wizprovider/builds/BasicDummyProvider.flx",
@@ -47,7 +47,7 @@
                 "name": "SecondAuthor"
             }
         ],
-        "id": "a8f0e687faa7f17",
+        "id": "ac994a50d3245c9",
         "versionCode": 10000,
         "description": "A dummy provider (with WebView) that does nothing.",
         "buildUrl": "https://raw.githubusercontent.com/NetAntV/Wizprovider/builds/BasicDummyWebViewProvider.flx",
@@ -77,12 +77,12 @@
                 "socialLink": "https://github.com/sussy-code"
             }
         ],
-        "id": "447fa04bef0c034",
-        "versionCode": 14102,
+        "id": "b11f4ffced8316f",
+        "versionCode": 14203,
         "description": "A forked clone of the old movie-web.\n\nThis is a set of providers. All source code references belong to sudo-flix.",
         "buildUrl": "https://raw.githubusercontent.com/NetAntV/Wizprovider/builds/SudoFlix.flx",
-        "changelog": "# 1.4.1\n\n- update compose BOM to 2024.09.02",
-        "versionName": "1.4.1",
+        "changelog": "# 1.4.2\n\n- update compose BOM to 2024.09.02",
+        "versionName": "1.4.2",
         "name": "SudoFlix"
     }
 ]
