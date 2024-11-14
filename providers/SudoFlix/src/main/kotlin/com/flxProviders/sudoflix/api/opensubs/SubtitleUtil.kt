@@ -29,9 +29,12 @@ internal object SubtitleUtil {
         episode: Int? = null,
         onSubtitleLoaded: (Subtitle) -> Unit
     ) {
-        // Fetch subtitles from both APIs
-        fetchWizdomSubtitles(imdbId, season, episode, onSubtitleLoaded)
-        fetchOpenSubsSubtitles(imdbId, season, episode, onSubtitleLoaded)
+        // Fetch Wizdom subtitles first, then fetch OpenSubtitles
+        fetchWizdomSubtitles(imdbId, season, episode) {
+            onSubtitleLoaded(it)
+            // After loading Wizdom subtitles, start fetching OpenSubtitles
+            fetchOpenSubsSubtitles(imdbId, season, episode, onSubtitleLoaded)
+        }
     }
 
     private fun OkHttpClient.fetchWizdomSubtitles(
@@ -68,7 +71,7 @@ internal object SubtitleUtil {
         println("Parsed Wizdom subtitles: $subtitles")
 
         subtitles?.forEach { subtitle ->
-            val subLanguage = "eng"  // Hard-coded language for Wizdom API
+            val subLanguage = "heb"  // Hard-coded language for Wizdom API
             val subtitleUrl = "https://wizdom.xyz/api/files/sub/${subtitle.id}"
             println("Wizdom Subtitle ID: ${subtitle.id}, Generated URL: $subtitleUrl, Version: ${subtitle.versioname}")
 
@@ -118,7 +121,7 @@ internal object SubtitleUtil {
 
         subtitles?.subtitles?.forEach { subtitle ->
             val subLanguage = subtitle["lang"] ?: return@forEach
-            if (subLanguage == "eng") {  // Filter only English subtitles
+            if (subLanguage == "eng" || subLanguage == "heb") {
                 val subtitleUrl = subtitle["url"] ?: return@forEach
                 println("OpenSubtitles English Subtitle URL: $subtitleUrl")
 
