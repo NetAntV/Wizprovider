@@ -10,7 +10,7 @@ flxProvider {
     """.trimIndent())
 
     changelog.set("""
-        # 1.4.1
+        # 1.4.2
         
         - update compose BOM to 2024.09.02
     """.trimIndent())
