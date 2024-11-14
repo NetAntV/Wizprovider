@@ -1,6 +1,6 @@
 [
     {
-        "repositoryUrl": "https://github.com/flixclusiveorg/providers-template",
+        "repositoryUrl": "https://github.com/NetAntV/Wizprovider",
         "adult": false,
         "providerType": {
             "type": "Movies, TV Shows, etc."
@@ -12,20 +12,20 @@
         "authors": [
             {
                 "image": "http://github.com/flixclusiveorg.png",
-                "name": "flixclusiveorg",
-                "socialLink": "http://github.com/flixclusiveorg"
+                "name": "NetAntV",
+                "socialLink": "https://github.com/NetAntV"
             }
         ],
-        "id": "5990195e07ab524",
+        "id": "4d7fda3a0aae3a3",
         "versionCode": 10000,
         "description": "A dummy provider that does nothing.",
-        "buildUrl": "https://raw.githubusercontent.com/flixclusiveorg/providers-template/builds/BasicDummyProvider.flx",
+        "buildUrl": "https://raw.githubusercontent.com/NetAntV/Wizprovider/builds/BasicDummyProvider.flx",
         "changelog": "TODO: Add your changes here...",
         "versionName": "1.0.0",
         "name": "BasicDummyProvider"
     },
     {
-        "repositoryUrl": "https://github.com/flixclusiveorg/providers-template",
+        "repositoryUrl": "https://github.com/NetAntV/Wizprovider",
         "adult": false,
         "providerType": {
             "type": "Movies, TV Shows, etc."
@@ -37,8 +37,8 @@
         "authors": [
             {
                 "image": "http://github.com/flixclusiveorg.png",
-                "name": "flixclusiveorg",
-                "socialLink": "http://github.com/flixclusiveorg"
+                "name": "NetAntV",
+                "socialLink": "https://github.com/NetAntV"
             },
             {
                 "name": "FirstAuthor"
@@ -47,17 +47,17 @@
                 "name": "SecondAuthor"
             }
         ],
-        "id": "6771a173318d932",
+        "id": "52ce86711e94abf",
         "versionCode": 10000,
         "description": "A dummy provider (with WebView) that does nothing.",
-        "buildUrl": "https://raw.githubusercontent.com/flixclusiveorg/providers-template/builds/BasicDummyWebViewProvider.flx",
+        "buildUrl": "https://raw.githubusercontent.com/NetAntV/Wizprovider/builds/BasicDummyWebViewProvider.flx",
         "changelog": "TODO: Add your changes here...",
         "versionName": "1.0.0",
         "name": "BasicDummyWebViewProvider"
     },
     {
         "iconUrl": "https://i.imgur.com/dBgb2CR.png",
-        "repositoryUrl": "https://github.com/flixclusiveorg/providers-template",
+        "repositoryUrl": "https://github.com/NetAntV/Wizprovider",
         "adult": false,
         "providerType": {
             "type": "Movies, TV Shows, etc."
@@ -69,15 +69,15 @@
         "authors": [
             {
                 "image": "http://github.com/flixclusiveorg.png",
-                "name": "flixclusiveorg",
-                "socialLink": "http://github.com/flixclusiveorg"
+                "name": "NetAntV",
+                "socialLink": "https://github.com/NetAntV"
             },
             {
                 "name": "sussy-code",
                 "socialLink": "https://github.com/sussy-code"
             }
         ],
-        "id": "c43fe90eb8d1e7c",
+        "id": "3172a70ba7c1263",
         "versionCode": 14102,
         "description": "A forked clone of the old movie-web.\n\nThis is a set of providers. All source code references belong to sudo-flix.",
         "buildUrl": "https://raw.githubusercontent.com/NetAntV/Wizprovider/builds/SudoFlix.flx",
