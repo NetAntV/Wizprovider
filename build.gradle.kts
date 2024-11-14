@@ -49,13 +49,13 @@ subprojects {
          * own github profile link
          * */
         author(
-            name = "flixclusiveorg",
+            name = "NetAntV",
             image = "http://github.com/flixclusiveorg.png",
-            socialLink = "http://github.com/flixclusiveorg",
+            socialLink = "https://github.com/NetAntV",
         )
         // author( ... )
 
-        setRepository("https://github.com/flixclusiveorg/providers-template")
+        setRepository("https://github.com/NetAntV/Wizprovider")
     }
 
     android {

@@ -1,4 +1,4 @@
-rootProject.name = "provider-template"
+rootProject.name = "Wizprovider"
 
 /**
 *
